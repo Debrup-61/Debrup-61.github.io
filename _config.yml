@@ -10,19 +10,20 @@ date_format: "%B %d, %Y"
 
 show_excerpts: false        # show article excerpts on the home page
 show_frame: true           # adds a gray frame to the site
-show_sidebar: false        # show a sidebar instead of the usual header
+show_sidebar: true        # show a sidebar instead of the usual header
 minimal: false             # use a dark header
 
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.html", title: "Home Change"}
-  - {file: "README.md", title: "About Me"}
+  - {file: "/cv.pdf", title: "CV",icon: home}
+  - {title: "Research Centre", url:"https://ciir.cs.umass.edu/"}
+  - {file: "/blog.md.md", title: "Blog"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:debrupdas@umass.edu"}
   - {title: Github, icon: github, url: "https://github.com/Debrup-61/"}
-  - {title: Twitter, icon: twitter, url: "https://x.com/DEBRUPD30132796"}
+  - {title: Twitter, icon: X, url: "https://x.com/DEBRUPD30132796"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
