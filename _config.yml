@@ -16,14 +16,14 @@ show_sidebar: false        # show a sidebar instead of the usual header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "/cv.pdf", title: "CV", icon: home}
+  - {file: "/cv.pdf", title: "CV", icon: file-alt}
   - {title: "Research Centre", url: "https://ciir.cs.umass.edu"}
   - {file: "/blog.md", title: "Blog"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:debrupdas@umass.edu"}
   - {title: Github, icon: github, url: "https://github.com/Debrup-61/"}
-  - {title: Twitter, icon: X, url: "https://x.com/DEBRUPD30132796"}
+  - {title: Twitter, icon: twitter, url: "https://x.com/DEBRUPD30132796"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
