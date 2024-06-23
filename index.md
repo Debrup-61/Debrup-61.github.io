@@ -55,7 +55,7 @@ layout: page
 }
 
 .update.active {
-  opacity: 0.4;  /* Make the first update visible */
+  opacity: 0;  /* Make the first update visible */
   transform: translateX(0); /* Set initial position for active update */
 }
 
