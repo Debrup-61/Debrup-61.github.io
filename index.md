@@ -86,8 +86,6 @@ layout: page
 
            <div class="update inactive">
            <h4>(06/23) Started working on Hate speech and Jailbreaks as part of Microsoft AFMR Program !</h4>
-           </div>
-            <div class="update inactive">
            <h4>(12/22) Completed my research internship at Genome Quebec Innovation Centre, McGill University - supervised by Prof. Simon Gravel !</h4>
            </div>
         </div>
