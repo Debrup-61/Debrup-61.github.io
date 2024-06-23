@@ -14,9 +14,16 @@ layout: page
   </div>
 </div>
 
-
-
-
+<section id="updates">
+  <h2>Updates/News</h2>
+  <div class="update">
+    <h3>(07/24) Keynote, Lisbon Machine Learning Summer School (LxMLS) 2024</h3>
+  </div>
+  <div class="update">
+    <h3>• (12/23) Keynote, CONLL. 2023 [video]</h3>
+    <a href="more_talks_details.html">more talks/details here</a>
+  </div>
+  </section>
 
 
 
