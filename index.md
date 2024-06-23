@@ -86,8 +86,8 @@ layout: page
 
            <div class="update inactive">
            <h4>(06/23) Started working on Hate speech and Jailbreaks as part of Microsoft AFMR Program advised by Prof Somak Aditya (IIT KGP) and <a href="https://mbzuai.ac.ae/study/faculty/monojit-choudhury/">Prof Monojit Choudhury (MBZUAI)</a>.</h4>
-           <h4>(12/22) Completed my research internship at Genome Quebec Innovation Centre, McGill University - supervised by Prof. Simon Gravel.</h4>
-            <h4>(05/21) Worked in the field of Genetic Algorihtms, supervised by Prof Nirupam Chakraborti, Czech Technical University.</h4>
+           <h4>(12/22) Completed my research internship at Genome Quebec Innovation Centre, <a href="https://www.mcgill.ca/">McGill University</a> - supervised by <a href="https://www.mcgillgenomecentre.ca/investigators/simon-gravel/">Prof. Simon Gravel</a>.</h4>
+            <h4>(05/21) Worked in the field of Genetic Algorihtms, supervised by <a href="https://www.linkedin.com/in/nirupam-chakraborti-4679371a9/">Prof Nirupam Chakraborti</a>.</h4>
            </div>
         </div>
         <button id="prev-update">&#8592;</button>
