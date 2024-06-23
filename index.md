@@ -14,67 +14,117 @@ layout: page
   </div>
 </div>
 <br/>
-<section id="updates">
-  <h3>Updates/News</h3>
-  <div class="update-container">
-    <div class="update active">  <h4>(06/24) Presented an in-person poster on "MATHSENSEI: A Tool-Augmented Large Language Model for Mathematical Reasoning" at NAACL 2024 Mexico City</h4>
-    </div>
-    <div class="update">
-      <h4>(04/24) Accepted as a CS PHD Student at UMass Amherst - advised by Negin Rahimi!</h4>
-    </div>
-    <div class="update">
-      <h4>(12/23) Completed my internship at Rakuten Global Inc., Language and Speech Team, RIT India.</h4>
-    </div>
-  </div>
-  <button id="prev-update">&#8592;</button>
-  <button id="next-update">&#8594;</button>
-</section>
 
-<style>
 
-#updates {
-  background-color: #32012F; /* Brown background */
-  padding: 20px; /* Add some padding for better readability */
-}
-  
-.update-container {
-  overflow: hidden; /* This is important for handling content overflow */
-  width: 100%; /* Adjust width as needed */
-  position: relative; /* Needed for absolute positioning of updates */
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Slider</title>
+    <style>
+        #updates {
+            background-color: #32012F; /* Dark background */
+            padding: 20px; /* Add padding */
+            color: #fff; /* White text for better contrast */
+        }
+        
+        .update-container {
+            overflow: hidden; /* Handle content overflow */
+            width: 100%; /* Full width */
+            position: relative; /* Positioning for updates */
+            height: 100px; /* Fixed height for container */
+        }
 
-.update {
-  position: absolute;  /* Make updates absolute for transition effect */
-  top: 0;
-  left: 0;
-  width: 100%;  /* Ensure updates fill the container width */
-  transition: transform 0.5s ease-in-out; /* Add transition effect */
-  opacity: 0;  /* Initially hide all updates */
-  padding: 10px; /* Add some padding for better look */
-  border-bottom: 1px solid #ddd; /* Add a border for separation */
-}
+        .update {
+            position: absolute; /* Absolute positioning */
+            top: 0;
+            left: 0;
+            width: 100%; /* Full width */
+            transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out; /* Transition effect */
+            opacity: 0; /* Initially hidden */
+            padding: 10px; /* Padding for better look */
+            box-sizing: border-box; /* Include padding in width */
+        }
 
-.update.active {
-  opacity: 0;  /* Make the first update visible */
-  transform: translateX(0); /* Set initial position for active update */
-}
+        .update.active {
+            opacity: 1; /* Show active update */
+            transform: translateX(0); /* Position for active update */
+        }
 
-.update:not(.active) {
-  transform: translateX(100%); /* Position inactive updates off-screen */
-}
+        .update.inactive {
+            opacity: 0; /* Hide inactive updates */
+            transform: translateX(100%); /* Off-screen position */
+        }
 
-#prev-update, #next-update {
-  /* Style navigation buttons as needed */
-  display: none; /* Hide buttons initially */
-}
+        #prev-update, #next-update {
+            display: none; /* Hide buttons initially */
+            background-color: #fff; /* White background */
+            color: #32012F; /* Dark text */
+            border: none; /* Remove border */
+            padding: 10px; /* Padding for buttons */
+            cursor: pointer; /* Pointer cursor */
+        }
 
-@media (hover: hover) { /* Show buttons on hover for better UX  */
-  #updates:hover #prev-update, 
-  #updates:hover #next-update {
-    display: inline-block; /* Show buttons on hover */
-  }
-}
-</style>
+        @media (hover: hover) { /* Show buttons on hover */
+            #updates:hover #prev-update, 
+            #updates:hover #next-update {
+                display: inline-block; /* Show buttons on hover */
+            }
+        }
+    </style>
+</head>
+<body>
+    <section id="updates">
+        <h3>Updates/News</h3>
+        <div class="update-container">
+            <div class="update active">
+                <h4>(06/24) Presented an in-person poster on "MATHSENSEI: A Tool-Augmented Large Language Model for Mathematical Reasoning" at NAACL 2024 Mexico City</h4>
+            </div>
+            <div class="update inactive">
+                <h4>(04/24) Accepted as a CS PHD Student at UMass Amherst - advised by Negin Rahimi!</h4>
+            </div>
+            <div class="update inactive">
+                <h4>(12/23) Completed my internship at Rakuten Global Inc., Language and Speech Team, RIT India.</h4>
+            </div>
+        </div>
+        <button id="prev-update">&#8592;</button>
+        <button id="next-update">&#8594;</button>
+    </section>
+
+    <script>
+        const updates = document.querySelectorAll('.update');
+        const prevButton = document.getElementById('prev-update');
+        const nextButton = document.getElementById('next-update');
+        let currentIndex = 0;
+
+        function showUpdate(index) {
+            updates.forEach((update, i) => {
+                if (i === index) {
+                    update.classList.add('active');
+                    update.classList.remove('inactive');
+                } else {
+                    update.classList.remove('active');
+                    update.classList.add('inactive');
+                }
+            });
+        }
+
+        prevButton.addEventListener('click', () => {
+            currentIndex = (currentIndex > 0) ? currentIndex - 1 : updates.length - 1;
+            showUpdate(currentIndex);
+        });
+
+        nextButton.addEventListener('click', () => {
+            currentIndex = (currentIndex < updates.length - 1) ? currentIndex + 1 : 0;
+            showUpdate(currentIndex);
+        });
+
+        // Initially show the first update
+        showUpdate(currentIndex);
+    </script>
+</body>
+</html>
 
 
 
