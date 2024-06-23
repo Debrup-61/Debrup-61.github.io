@@ -79,15 +79,15 @@ layout: page
         <h3>Updates/News</h3>
         <div class="update-container">
             <div class="update active">
-                <h4>(06/24) Presented an in-person poster on "MATHSENSEI: A Tool-Augmented Large Language Model for Mathematical Reasoning" at NAACL 2024, Mexico City.</h4>
+                <h4>(06/24) Presented my main conference paper on <a href="https://aclanthology.org/2024.naacl-long.54/">"MATHSENSEI: A Tool-Augmented Large Language Model for Mathematical Reasoning"</a> at <a href="https://2024.naacl.org/">NAACL 2024</a>, Mexico City.</h4>
           <h4>(04/24) Accepted as a CS PHD Student at UMass Amherst - advised by Prof. Negin Rahimi !</h4>
-          <h4>(12/23) Completed my internship at Rakuten Global Inc., Language and Speech Team, RIT India.</h4>
+          <h4>(12/23) Completed my internship at <a href="https://global.rakuten.com/corp/">Rakuten Global Inc.</a>, Language and Speech Team, RIT India.</h4>
             </div>
 
            <div class="update inactive">
-           <h4>(06/23) Started working on Hate speech and Jailbreaks as part of Microsoft AFMR Program advised by Prof Somak Aditya (IIT KGP) and Prof Monojit Choudhury (MBZUAI).</h4>
+           <h4>(06/23) Started working on Hate speech and Jailbreaks as part of Microsoft AFMR Program advised by Prof Somak Aditya (IIT KGP) and <a href="https://mbzuai.ac.ae/study/faculty/monojit-choudhury/">Prof Monojit Choudhury (MBZUAI)</a>.</h4>
            <h4>(12/22) Completed my research internship at Genome Quebec Innovation Centre, McGill University - supervised by Prof. Simon Gravel.</h4>
-            <h4>(05/21) Worked in the field of Genetic Algorihtms and Evolutionary Algorithms for Deep Learning, supervised by Prof Nirupam Chakraborti, Czech Technical University.</h4>
+            <h4>(05/21) Worked in the field of Genetic Algorihtms, supervised by Prof Nirupam Chakraborti, Czech Technical University.</h4>
            </div>
         </div>
         <button id="prev-update">&#8592;</button>
