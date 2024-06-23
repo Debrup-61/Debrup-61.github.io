@@ -15,13 +15,15 @@ layout: page
 </div>
 
 <section id="updates">
-  <h2>Updates/News</h2>
+  <h3>Updates/News</h3>
   <div class="update">
-    <h3>(07/24) Keynote, Lisbon Machine Learning Summer School (LxMLS) 2024</h3>
+    <h4>(06/24) Presented an in-person poster on "MATHSENSEI: A Tool-Augmented Large Language Model for Mathematical Reasoning" at NAACL 2024 Mexico City</h4>
   </div>
   <div class="update">
-    <h3>• (12/23) Keynote, CONLL. 2023 [video]</h3>
-    <a href="more_talks_details.html">more talks/details here</a>
+    <h4> (04/24) Accepted as a CS PHD Student at UMass Amherst - advised by Negin Rahimi!</h4>
+  </div>
+  <div class="update">
+    <h4> (12/23) Completed my internship at Rakuten Global Inc., Language and Speech Team, RIT India.</h4>
   </div>
   </section>
 
