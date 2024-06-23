@@ -33,7 +33,7 @@ layout: page
             overflow: hidden; /* Handle content overflow */
             width: 100%; /* Full width */
             position: relative; /* Positioning for updates */
-            height: 150px; /* Fixed height for container */
+            height: 200px; /* Fixed height for container */
         }
 
         .update {
@@ -85,10 +85,10 @@ layout: page
             </div>
 
            <div class="update inactive">
-           <h4>(06/23) Started working on Hate speech and Jailbreaks as part of Microsoft AFMR Program, supervised by Prof Somak Aditya (IIT KGP) and Prof Monojit Choudhury (MBZUAI)</h4>
+           <h4>(06/23) Started working on Hate speech and Jailbreaks as part of Microsoft AFMR Program !</h4>
            </div>
             <div class="update inactive">
-           <h4>(12/22) Completed my research internship on Genome-Wide Association Studies (GWAS) at Genome Quebec Innovation Centre, McGill University - supervised by Prof. Simon Gravel under the MITACS Globalink Program !</h4>
+           <h4>(12/22) Completed my research internship at Genome Quebec Innovation Centre, McGill University - supervised by Prof. Simon Gravel !</h4>
            </div>
         </div>
         <button id="prev-update">&#8592;</button>
