@@ -14,6 +14,31 @@ layout: page
   </div>
 </div>
 
+<div id="recent-updates-slider">
+  <div class="slide">Slide 1 Content - Recent Update 1</div>
+  <div class="slide">Slide 2 Content - Recent Update 2</div>
+  </div>
+
+<style>
+#recent-updates-slider {
+  width: 100%; /* Adjust width as needed */
+  margin-top: 20px; /* Add spacing between text and slider */
+  overflow: hidden; /* This is important for handling slide overflow */
+}
+
+.slide {
+  display: none; /* Initially hide all slides */
+  text-align: center; /* Center slide content */
+  padding: 10px; /* Add some padding for better look */
+  border: 1px solid #ddd; /* Add a border for separation */
+  margin-bottom: 10px; /* Add spacing between slides */
+}
+
+#recent-updates-slider .slide:first-child {
+    display: block; /* Make the first slide visible initially */
+}
+</style>
+
 
 
 
