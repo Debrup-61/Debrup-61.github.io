@@ -31,10 +31,13 @@ layout: page
 </section>
 
 <style>
-#updates {
-  /* Style the updates section as needed */
-}
 
+#updates {
+  border: 1px solid #ddd; /* Add a border */
+  border-radius: 5px; /* Add rounded corners */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+  
 .update-container {
   overflow: hidden; /* This is important for handling content overflow */
   width: 100%; /* Adjust width as needed */
