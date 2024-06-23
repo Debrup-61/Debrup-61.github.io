@@ -33,7 +33,7 @@ layout: page
             overflow: hidden; /* Handle content overflow */
             width: 100%; /* Full width */
             position: relative; /* Positioning for updates */
-            height: 100px; /* Fixed height for container */
+            height: 300px; /* Fixed height for container */
         }
 
         .update {
@@ -43,7 +43,7 @@ layout: page
             width: 100%; /* Full width */
             transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out; /* Transition effect */
             opacity: 0; /* Initially hidden */
-            padding: 10px; /* Padding for better look */
+            padding: 2px; /* Padding for better look */
             box-sizing: border-box; /* Include padding in width */
         }
 
@@ -80,12 +80,8 @@ layout: page
         <div class="update-container">
             <div class="update active">
                 <h4>(06/24) Presented an in-person poster on "MATHSENSEI: A Tool-Augmented Large Language Model for Mathematical Reasoning" at NAACL 2024 Mexico City</h4>
-            </div>
-            <div class="update active">
-                <h4>(04/24) Accepted as a CS PHD Student at UMass Amherst - advised by Negin Rahimi!</h4>
-            </div>
-            <div class="update active">
-                <h4>(12/23) Completed my internship at Rakuten Global Inc., Language and Speech Team, RIT India.</h4>
+          <h4>(04/24) Accepted as a CS PHD Student at UMass Amherst - advised by Negin Rahimi!</h4>
+          <h4>(12/23) Completed my internship at Rakuten Global Inc., Language and Speech Team, RIT India.</h4>
             </div>
         </div>
         <button id="prev-update">&#8592;</button>
