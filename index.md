@@ -16,16 +16,63 @@ layout: page
 
 <section id="updates">
   <h3>Updates/News</h3>
-  <div class="update">
-    <h4>(06/24) Presented an in-person poster on "MATHSENSEI: A Tool-Augmented Large Language Model for Mathematical Reasoning" at NAACL 2024 Mexico City</h4>
+  <div class="update-container">
+    <div class="update active">  <h4>(06/24) Presented an in-person poster on "MATHSENSEI: A Tool-Augmented Large Language Model for Mathematical Reasoning" at NAACL 2024 Mexico City</h4>
+    </div>
+    <div class="update">
+      <h4>(04/24) Accepted as a CS PHD Student at UMass Amherst - advised by Negin Rahimi!</h4>
+    </div>
+    <div class="update">
+      <h4>(12/23) Completed my internship at Rakuten Global Inc., Language and Speech Team, RIT India.</h4>
+    </div>
   </div>
-  <div class="update">
-    <h4> (04/24) Accepted as a CS PHD Student at UMass Amherst - advised by Negin Rahimi!</h4>
-  </div>
-  <div class="update">
-    <h4> (12/23) Completed my internship at Rakuten Global Inc., Language and Speech Team, RIT India.</h4>
-  </div>
-  </section>
+  <button id="prev-update">&#8592;</button>
+  <button id="next-update">&#8594;</button>
+</section>
+
+<style>
+#updates {
+  /* Style the updates section as needed */
+}
+
+.update-container {
+  overflow: hidden; /* This is important for handling content overflow */
+  width: 100%; /* Adjust width as needed */
+  position: relative; /* Needed for absolute positioning of updates */
+}
+
+.update {
+  position: absolute;  /* Make updates absolute for transition effect */
+  top: 0;
+  left: 0;
+  width: 100%;  /* Ensure updates fill the container width */
+  transition: transform 0.5s ease-in-out; /* Add transition effect */
+  opacity: 0;  /* Initially hide all updates */
+  padding: 10px; /* Add some padding for better look */
+  border-bottom: 1px solid #ddd; /* Add a border for separation */
+}
+
+.update.active {
+  opacity: 1;  /* Make the first update visible */
+  transform: translateX(0); /* Set initial position for active update */
+}
+
+.update:not(.active) {
+  transform: translateX(100%); /* Position inactive updates off-screen */
+}
+
+#prev-update, #next-update {
+  /* Style navigation buttons as needed */
+  display: none; /* Hide buttons initially */
+}
+
+@media (hover: hover) { /* Show buttons on hover for better UX  */
+  #updates:hover #prev-update, 
+  #updates:hover #next-update {
+    display: inline-block; /* Show buttons on hover */
+  }
+}
+</style>
 
 
 
