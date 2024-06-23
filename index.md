@@ -13,7 +13,7 @@ layout: page
     My current research interests are focused on the effective utilization of retrieval-based systems and external structured knowledge to improve multiple reasoning dimensions in language models. My other interests revolve around the use of neuro-symbolic methods in NLP, and trying to make LLMs safer to use in social contexts.
   </div>
 </div>
-
+<br/>
 <section id="updates">
   <h3>Updates/News</h3>
   <div class="update-container">
@@ -33,7 +33,7 @@ layout: page
 <style>
 
 #updates {
-  background-color: #973131; /* Brown background */
+  background-color: #F5E7B2; /* Brown background */
   padding: 20px; /* Add some padding for better readability */
 }
   
