@@ -33,7 +33,7 @@ layout: page
 <style>
 
 #updates {
-  background-color: #F5E7B2; /* Brown background */
+  background-color: #32012F; /* Brown background */
   padding: 20px; /* Add some padding for better readability */
 }
   
