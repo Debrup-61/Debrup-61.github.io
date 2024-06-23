@@ -33,7 +33,7 @@ layout: page
 <style>
 
 #updates {
-  background-color: #f5f5f5; /* Light gray background */
+  background-color: #973131; /* Brown background */
   padding: 20px; /* Add some padding for better readability */
 }
   
@@ -55,7 +55,7 @@ layout: page
 }
 
 .update.active {
-  opacity: 1;  /* Make the first update visible */
+  opacity: 0.4;  /* Make the first update visible */
   transform: translateX(0); /* Set initial position for active update */
 }
 
