@@ -17,6 +17,7 @@ layout: page
 
 
 
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -28,18 +29,17 @@ layout: page
             padding: 20px; /* Add padding */
             color: #fff; /* White text for better contrast */
         }
-        
+
         .update-container {
             overflow: hidden; /* Handle content overflow */
             width: 100%; /* Full width */
             position: relative; /* Positioning for updates */
-            height: 100px; /* Fixed height for container */
+            height: 300px; /* Adjust height to fit three updates */
         }
 
         .update {
             position: absolute; /* Absolute positioning */
             top: 0;
-            left: 0;
             width: 100%; /* Full width */
             transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out; /* Transition effect */
             opacity: 0; /* Initially hidden */
@@ -87,6 +87,15 @@ layout: page
             <div class="update active">
                 <h4>(12/23) Completed my internship at Rakuten Global Inc., Language and Speech Team, RIT India.</h4>
             </div>
+            <div class="update inactive">
+                <h4>(11/23) Published a paper in IEEE Transactions on Neural Networks and Learning Systems.</h4>
+            </div>
+            <div class="update inactive">
+                <h4>(10/23) Presented at the ACM Multimedia Conference 2023 in Ottawa, Canada.</h4>
+            </div>
+            <div class="update inactive">
+                <h4>(09/23) Joined the AI Research Team at Google as a Research Intern.</h4>
+            </div>
         </div>
         <button id="prev-update">&#8592;</button>
         <button id="next-update">&#8594;</button>
@@ -97,10 +106,12 @@ layout: page
         const prevButton = document.getElementById('prev-update');
         const nextButton = document.getElementById('next-update');
         let currentIndex = 0;
+        const visibleCount = 3; // Number of visible updates
+        const intervalTime = 5000; // Time interval in milliseconds
 
-        function showUpdate(index) {
+        function showUpdates() {
             updates.forEach((update, i) => {
-                if (i === index) {
+                if (i >= currentIndex && i < currentIndex + visibleCount) {
                     update.classList.add('active');
                     update.classList.remove('inactive');
                 } else {
@@ -111,17 +122,33 @@ layout: page
         }
 
         prevButton.addEventListener('click', () => {
-            currentIndex = (currentIndex > 0) ? currentIndex - 1 : updates.length - 1;
-            showUpdate(currentIndex);
+            currentIndex = (currentIndex - visibleCount + updates.length) % updates.length;
+            showUpdates();
         });
 
         nextButton.addEventListener('click', () => {
-            currentIndex = (currentIndex < updates.length - 1) ? currentIndex + 1 : 0;
-            showUpdate(currentIndex);
+            currentIndex = (currentIndex + visibleCount) % updates.length;
+            showUpdates();
         });
 
-        // Initially show the first update
-        showUpdate(currentIndex);
+        function autoSlide() {
+            nextButton.click();
+        }
+
+        let slideInterval = setInterval(autoSlide, intervalTime);
+
+        // Pause auto sliding on mouse hover
+        document.getElementById('updates').addEventListener('mouseenter', () => {
+            clearInterval(slideInterval);
+        });
+
+        // Resume auto sliding on mouse leave
+        document.getElementById('updates').addEventListener('mouseleave', () => {
+            slideInterval = setInterval(autoSlide, intervalTime);
+        });
+
+        // Initially show the first set of updates
+        showUpdates();
     </script>
 </body>
 </html>
