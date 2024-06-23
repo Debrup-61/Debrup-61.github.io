@@ -33,9 +33,8 @@ layout: page
 <style>
 
 #updates {
-  border: 1px solid #ddd; /* Add a border */
-  border-radius: 5px; /* Add rounded corners */
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  background-color: #f5f5f5; /* Light gray background */
+  padding: 20px; /* Add some padding for better readability */
 }
   
 .update-container {
