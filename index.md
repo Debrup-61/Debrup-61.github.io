@@ -33,7 +33,7 @@ layout: page
             overflow: hidden; /* Handle content overflow */
             width: 100%; /* Full width */
             position: relative; /* Positioning for updates */
-            height: 300px; /* Fixed height for container */
+            height: 150px; /* Fixed height for container */
         }
 
         .update {
@@ -80,9 +80,16 @@ layout: page
         <div class="update-container">
             <div class="update active">
                 <h4>(06/24) Presented an in-person poster on "MATHSENSEI: A Tool-Augmented Large Language Model for Mathematical Reasoning" at NAACL 2024 Mexico City</h4>
-          <h4>(04/24) Accepted as a CS PHD Student at UMass Amherst - advised by Negin Rahimi!</h4>
+          <h4>(04/24) Accepted as a CS PHD Student at UMass Amherst - advised by Prof. Negin Rahimi!</h4>
           <h4>(12/23) Completed my internship at Rakuten Global Inc., Language and Speech Team, RIT India.</h4>
             </div>
+
+           <div class="update inactive">
+           <h4>(06/23) Started working on Hate speech and Jailbreaks as part of Microsoft AFMR Program, supervised by Prof Somak Aditya (IIT KGP) and Prof Monojit Choudhury (MBZUAI)</h4>
+           </div>
+            <div class="update inactive">
+           <h4>(12/22) Completed my research internship on Genome-Wide Association Studies (GWAS) at Genome Quebec Innovation Centre, McGill University - supervised by Prof. Simon Gravel under the MITACS Globalink Program !</h4>
+           </div>
         </div>
         <button id="prev-update">&#8592;</button>
         <button id="next-update">&#8594;</button>
