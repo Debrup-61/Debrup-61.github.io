@@ -16,7 +16,7 @@ show_sidebar: false        # show a sidebar instead of the usual header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {title: "CV", url: "https://drive.google.com/file/d/1Ox-AwrFoUz4Z_m-ORQB5a1CPJzml_IKU/view?usp=drive_link"}
+  - {title: "CV", url: "https://drive.google.com/file/d/1LJ4-8uEuHKxtsfwHUzAlZqMz0jhyaUoG/view?usp=sharing"}
   - {title: "Research Centre", url: "https://ciir.cs.umass.edu"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
