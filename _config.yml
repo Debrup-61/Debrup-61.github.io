@@ -16,7 +16,7 @@ show_sidebar: false        # show a sidebar instead of the usual header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "debrup_das_CV_UMASS.pdf", title: "CV"}
+  - {file: "DebrupDasCV.pdf", title: "CV"}
   - {title: "Research Centre", url: "https://ciir.cs.umass.edu"}
   - {file: "blog.md", title: "Blog"}
 
