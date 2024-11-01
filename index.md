@@ -79,8 +79,8 @@ layout: page
         <h3>Updates/News</h3>
         <div class="update-container">
             <div class="update active">
+                <h4>(09/24) Started my PHD at UMass Amherst - advised by Prof. Negin Rahimi !</h4>
                 <h4>(06/24) Presented my main conference paper on <a href="https://aclanthology.org/2024.naacl-long.54/">"MATHSENSEI: A Tool-Augmented Large Language Model for Mathematical Reasoning"</a> at <a href="https://2024.naacl.org/">NAACL 2024</a>, Mexico City.</h4>
-          <h4>(04/24) Accepted as a CS PHD Student at UMass Amherst - advised by Prof. Negin Rahimi !</h4>
           <h4>(12/23) Completed my internship at <a href="https://global.rakuten.com/corp/">Rakuten Global Inc.</a>, Language and Speech Team, RIT India.</h4>
             </div>
 
