@@ -4,7 +4,7 @@ layout: page
 
 <div class="bio-container">
   <div style="flex: 0 0 30%; text-align: left;">
-    <img src="debrup2.jpg" alt="Description of image" style="max-width: 80%; height: auto;">
+    <img src="debrup2.jpg" alt="Description of image" style="max-width: 90%; height: auto;">
   </div>
   <div class="bio-text">
     
@@ -117,6 +117,12 @@ layout: page
         <h4>(09/24) Started my PHD at UMass Amherst - advised by Prof. Negin Rahimi!</h4>
       </div>
       <div class="update">
+        <h4>(06/24)
+          Joint work with <a href="https://mbzuai.ac.ae/">MBZUAI</a>, <a href="https://aclanthology.org/2025.naacl-long.463/">"SMAB: MAB based word Sensitivity Estimation Framework and its Applications in Adversarial Text Generation"</a> accepted as Main Conference paper at <a href="">NAACL 2025</a>, New Mexico.
+        </h4>
+      </div>
+      
+      <div class="update">
         <h4>(06/24) Presented my main conference paper on 
           <a href="https://aclanthology.org/2024.naacl-long.54/">"MATHSENSEI: A Tool-Augmented Large Language Model for Mathematical Reasoning"</a> 
           at <a href="https://2024.naacl.org/">NAACL 2024</a>, Mexico City.
@@ -127,6 +133,7 @@ layout: page
           <a href="https://global.rakuten.com/corp/">Rakuten Global Inc.</a>, Language and Speech Team, RIT India.
         </h4>
       </div>
+  </div>    
   
   </section>
 </body>
