@@ -2,11 +2,11 @@
 layout: page
 ---
 
-<div style="display: flex; align-items: center;">
+<div class="bio-container">
   <div style="flex: 0 0 30%; text-align: left;">
     <img src="debrup.png" alt="Description of image" style="max-width: 80%; height: auto;">
   </div>
-  <div style="flex: 1; margin-left: 40px;">
+  <div class="bio-text">
     
    I am a 1st year Computer Science PhD student at the <a href="https://www.cics.umass.edu/">Manning College of Information & Computer Science</a>, <a href="https://www.umass.edu/">University of Massachusetts Amherst</a>. I am advised by  <a href="https://people.cs.umass.edu/~rahimi/">Prof. Negin Rahimi</a>. My broad research interests are primarily in Information Retrieval (IR) and Natural Language Processing (NLP). Prior to this, I received a Dual Degree (Bachelors + Masters) in Mathematics and Computing from IIT Kharagpur, India where I worked on the paradigm of tool-augmentation for mathematical reasoning in LLMs, supervised by <a href="https://adityasomak.github.io/">Prof. Somak Aditya</a>.
     <br/><br/>
@@ -23,55 +23,79 @@ layout: page
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>News Slider</title>
     <style>
-        #updates {
-            background-color: #32012F; /* Dark background */
-            padding: 20px; /* Add padding */
-            color: #fff; /* White text for better contrast */
+                /* ===== Light Theme Base ===== */
+        body {
+            background-color: #ffffff; /* White background */
+            color: #222222; /* Dark text for readability */
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
         }
         
-        .update-container {
-            overflow: hidden; /* Handle content overflow */
-            width: 100%; /* Full width */
-            position: relative; /* Positioning for updates */
-            height: 200px; /* Fixed height for container */
+        /* Links */
+        a {
+            color: #0066cc; /* Blue links */
+            text-decoration: none;
         }
-
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Bio section (your intro with image) */
+        .bio-container {
+            display: flex;
+            align-items: center;
+            background-color: #f9f9f9; /* Soft light background */
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .bio-container img {
+            max-width: 80%;
+            height: auto;
+            border-radius: 8px; /* Smooth edges */
+        }
+        
+        .bio-text {
+            flex: 1;
+            margin-left: 40px;
+        }
+        
+        /* Updates Section */
+        #updates {
+            background-color: #f9f9f9; /* Light background */
+            padding: 20px;
+            color: #222; /* Dark text */
+        }
+        
         .update {
-            position: absolute; /* Absolute positioning */
-            top: 0;
-            left: 0;
-            width: 100%; /* Full width */
-            transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out; /* Transition effect */
-            opacity: 0; /* Initially hidden */
-            padding: 2px; /* Padding for better look */
-            box-sizing: border-box; /* Include padding in width */
+            background-color: #ffffff; /* White cards */
+            color: #222;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-shadow: 0px 2px 4px rgba(0,0,0,0.1); /* subtle card shadow */
         }
-
-        .update.active {
-            opacity: 1; /* Show active update */
-            transform: translateX(0); /* Position for active update */
-        }
-
-        .update.inactive {
-            opacity: 0; /* Hide inactive updates */
-            transform: translateX(100%); /* Off-screen position */
-        }
-
+        
         #prev-update, #next-update {
-            display: none; /* Hide buttons initially */
-            background-color: #fff; /* White background */
-            color: #32012F; /* Dark text */
-            border: none; /* Remove border */
-            padding: 10px; /* Padding for buttons */
-            cursor: pointer; /* Pointer cursor */
+            display: none;
+            background-color: #0066cc; /* Blue buttons */
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 6px;
         }
-
-        @media (hover: hover) { /* Show buttons on hover */
+        
+        @media (hover: hover) {
             #updates:hover #prev-update, 
             #updates:hover #next-update {
-                display: inline-block; /* Show buttons on hover */
+                display: inline-block;
             }
         }
+
     </style>
 </head>
 <body>
