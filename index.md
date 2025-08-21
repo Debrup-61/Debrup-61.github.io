@@ -123,7 +123,7 @@ layout: page
       }
       
       .pub-image img {
-        width: 120px;  /* adjust size as needed */
+        width: 180px;  /* adjust size as needed */
         height: auto;
         object-fit: contain;
         border-radius: 6px;
