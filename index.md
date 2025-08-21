@@ -202,7 +202,7 @@ layout: page
     <div class="pub-details">
       <h3>RaDeR: Reasoning-aware Dense Retrieval Models</h3>
       <p>
-         **Debrup Das**, Sam O' Nuallain, Razieh Rahimi
+         <strong>Debrup Das</strong>, Sam O' Nuallain, Razieh Rahimi
         <br>
         <em>Main Conference Paper at EMNLP 2025, Suzhao, China </em>
       </p>
@@ -216,7 +216,7 @@ layout: page
     <div class="pub-details">
       <h3>MATHSENSEI: A Tool-Augmented Large Language Model for Mathematical Reasoning</h3>
       <p>
-        **Debrup Das**, Debopriyo Banerjee, Somak Aditya, Ashish Kulkarni
+        <strong>Debrup Das</strong>, Debopriyo Banerjee, Somak Aditya, Ashish Kulkarni
         <em>Main Conference Paper at NAACL 2024, Mexico City</em>
       </p>
     </div>
@@ -230,7 +230,7 @@ layout: page
     <div class="pub-details">
       <h3>SMAB: MAB based word Sensitivity Estimation Framework and its Applications in Adversarial Text Generation</h3>
       <p>
-        Saurabh Kumar Pandey, Sachin Vashistha, **Debrup Das**, Somak Aditya, Monojit Choudhury
+        Saurabh Kumar Pandey, Sachin Vashistha, <strong>Debrup Das</strong>, Somak Aditya, Monojit Choudhury
         <em>Main Conference Paper at NAACL 2025, New Mexico</em>
       </p>
     </div>
