@@ -123,7 +123,7 @@ layout: page
       }
       
       .pub-image img {
-        width: 300px;  /* adjust size as needed */
+        width: 350px;  /* adjust size as needed */
         height: auto;
         object-fit: contain;
         border-radius: 6px;
@@ -217,6 +217,7 @@ layout: page
       <h3>MATHSENSEI: A Tool-Augmented Large Language Model for Mathematical Reasoning</h3>
       <p>
         <strong>Debrup Das</strong>, Debopriyo Banerjee, Somak Aditya, Ashish Kulkarni
+        <br>
         <em>Main Conference Paper at NAACL 2024, Mexico City</em>
       </p>
     </div>
@@ -231,6 +232,7 @@ layout: page
       <h3>SMAB: MAB based word Sensitivity Estimation Framework and its Applications in Adversarial Text Generation</h3>
       <p>
         Saurabh Kumar Pandey, Sachin Vashistha, <strong>Debrup Das</strong>, Somak Aditya, Monojit Choudhury
+        <br>
         <em>Main Conference Paper at NAACL 2025, New Mexico</em>
       </p>
     </div>
