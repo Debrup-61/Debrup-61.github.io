@@ -4,13 +4,13 @@ layout: page
 
 <div class="bio-container">
   <div style="flex: 0 0 30%; text-align: left;">
-    <img src="debrup2.jpg" alt="Description of image" style="max-width: 100%; height: auto;">
+    <img src="debrup2.jpg" alt="Description of image" style="max-width: 80%; height: auto;">
   </div>
   <div class="bio-text">
     
    I am a 1st year Computer Science PhD student at the <a href="https://www.cics.umass.edu/">Manning College of Information & Computer Science</a>, <a href="https://www.umass.edu/">University of Massachusetts Amherst</a>. I am advised by  <a href="https://people.cs.umass.edu/~rahimi/">Prof. Negin Rahimi</a>. My broad research interests are primarily in Information Retrieval (IR) and Natural Language Processing (NLP). Prior to this, I received a Dual Degree (Bachelors + Masters) in Mathematics and Computing from IIT Kharagpur, India where I worked on the paradigm of tool-augmentation for mathematical reasoning in LLMs, supervised by <a href="https://adityasomak.github.io/">Prof. Somak Aditya</a>.
     <br/><br/>
-    My current research interests are focused on the effective utilization of retrieval-based systems and external structured knowledge to improve multiple reasoning dimensions in language models. My other interests revolve around the use of neuro-symbolic methods in NLP, and trying to make LLMs safer to use in social contexts.
+    My overarching research goals are focused on the effective utilization of retrieval-based systems and external structured knowledge to improve multiple reasoning dimensions in LLMs. Currently, I am interested developing advanced retrieval systems for reasoning-intensive tasks, where retrievers perform multi-step, complex reasoning across multiple turns, leveraging both intermediate outputs and previously retrieved information. I am currently working on agentic retrieval frameworks, using reinforcement learning to train retrievers with step-wise feedback in dynamic environments. My other resesrch interests revolve around the use of neuro-symbolic methods in NLP, and trying to make LLMs safer to use in social contexts.
   </div>
 </div>
 <br/>
@@ -102,6 +102,61 @@ layout: page
         text-decoration: underline;
       }
 
+        #publications {
+        padding: 40px 20px;
+        background-color: #f9f9f9;
+        color: #2c3e50;
+        font-family: "Segoe UI", Arial, sans-serif;
+      }
+      
+      #publications h2 {
+        text-align: center;
+        margin-bottom: 30px;
+        color: #0056b3; /* professional accent color */
+      }
+      
+      .publication {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 25px;
+        gap: 20px; /* spacing between image and details */
+      }
+      
+      .pub-image img {
+        width: 120px;  /* adjust size as needed */
+        height: auto;
+        object-fit: contain;
+        border-radius: 6px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      }
+      
+      .pub-details h3 {
+        margin: 0 0 5px 0;
+        font-size: 18px;
+        font-weight: 600;
+        color: #0056b3; /* same accent as section header */
+      }
+      
+      .pub-details p {
+        margin: 0;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      
+      @media (max-width: 768px) {
+        .publication {
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+        }
+        .pub-image img {
+          width: 80%;
+        }
+      }
+
+
+
+
     </style>
 </head>
 
@@ -136,5 +191,41 @@ layout: page
   </div>    
   
   </section>
+
+  <section id="publications">
+  <h2>Publications</h2>
+
+  <div class="publication">
+    <div class="pub-image">
+      <img src="Paper1.png" alt="Paper 1 Figure">
+    </div>
+    <div class="pub-details">
+      <h3>Frustratingly Simple Retrieval Improves Challenging, Reasoning-Intensive Benchmarks</h3>
+      <p>
+        Xinx Lyu*, Michael Duan*, Rulin Shao, Pang Wei Koh, Sewon Min <br>
+        <em>Preprint</em>
+      </p>
+    </div>
+  </div>
+
+  <div class="publication">
+    <div class="pub-image">
+      <img src="paper2.png" alt="Paper 2 Figure">
+    </div>
+    <div class="pub-details">
+      <h3>Spurious Rewards: Rethinking Training Signals in RLVR</h3>
+      <p>
+        Rulin Shao*, Shuyue Stella Li*, Rui Xin*, Scott Geng*, Yiping Wang, Sewoong Oh, ... <br>
+        <em>Preprint</em>
+      </p>
+    </div>
+  </div>
+
+  <!-- Add more publications in the same format -->
+</section>
+
+
 </body>
+
+
 </html>
