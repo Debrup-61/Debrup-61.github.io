@@ -38,7 +38,6 @@ layout: page
         header, nav, .site-header, .navbar {
             background-color: #f9f9f9 !important; /* Light gray toolbar */
             color: #222 !important; /* Dark text */
-            border-bottom: 1px solid #ddd; /* Subtle separator */
         }
         
         /* Toolbar links */
@@ -49,7 +48,6 @@ layout: page
         header a:hover, nav a:hover, .site-header a:hover, .navbar a:hover {
             text-decoration: underline;
         }
-
 
 
         
