@@ -23,24 +23,35 @@ layout: page
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>News Slider</title>
     <style>
-                /* ===== Light Theme Base ===== */
+
+
+        /* Whole page background */
         body {
-            background-color: #ffffff; /* White background */
-            color: #222222; /* Dark text for readability */
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
+            background-color: #ffffff !important; /* White background */
+            color: #222 !important; /* Dark text */
             margin: 0;
             padding: 0;
+            font-family: Arial, sans-serif;
         }
         
-        /* Links */
-        a {
-            color: #0066cc; /* Blue links */
+        /* Top toolbar / navigation bar */
+        header, nav, .site-header, .navbar {
+            background-color: #f9f9f9 !important; /* Light gray toolbar */
+            color: #222 !important; /* Dark text */
+            border-bottom: 1px solid #ddd; /* Subtle separator */
+        }
+        
+        /* Toolbar links */
+        header a, nav a, .site-header a, .navbar a {
+            color: #0066cc !important; /* Blue links */
             text-decoration: none;
         }
-        a:hover {
+        header a:hover, nav a:hover, .site-header a:hover, .navbar a:hover {
             text-decoration: underline;
         }
+
+
+
         
         /* Bio section (your intro with image) */
         .bio-container {
