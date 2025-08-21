@@ -4,7 +4,7 @@ layout: page
 
 <div class="bio-container">
   <div style="flex: 0 0 30%; text-align: left;">
-    <img src="debrup.png" alt="Description of image" style="max-width: 80%; height: auto;">
+    <img src="debrup2.jpg" alt="Description of image" style="max-width: 80%; height: auto;">
   </div>
   <div class="bio-text">
     
