@@ -10,7 +10,7 @@ layout: page
     
    I am a 1st year Computer Science PhD student at the <a href="https://www.cics.umass.edu/">Manning College of Information & Computer Science</a>, <a href="https://www.umass.edu/">University of Massachusetts Amherst</a>. I am advised by  <a href="https://people.cs.umass.edu/~rahimi/">Prof. Negin Rahimi</a>. My broad research interests are primarily in Information Retrieval (IR) and Natural Language Processing (NLP). Prior to this, I received a Dual Degree (Bachelors + Masters) in Mathematics and Computing from IIT Kharagpur, India where I worked on the paradigm of tool-augmentation for mathematical reasoning in LLMs, supervised by <a href="https://adityasomak.github.io/">Prof. Somak Aditya</a>.
     <br/><br/>
-    My overarching research goals are focused on the effective utilization of retrieval-based systems and external structured knowledge to improve multiple reasoning dimensions in LLMs. Currently, I am interested developing advanced retrieval systems for reasoning-intensive tasks, where retrievers perform multi-step, complex reasoning across multiple turns, leveraging both intermediate outputs and previously retrieved information. I am currently working on agentic retrieval frameworks, using reinforcement learning to train retrievers with step-wise feedback in dynamic environments. My other resesrch interests revolve around the use of neuro-symbolic methods in NLP, and trying to make LLMs safer to use in social contexts.
+    My overarching research goals are focused on the effective utilization of retrieval-based systems and external structured knowledge to improve multiple reasoning dimensions in LLMs. Currently, I am interested in developing advanced retrieval systems for reasoning-intensive tasks, where retrievers perform multi-step, complex reasoning across multiple turns, leveraging both intermediate outputs and previously retrieved information. I am working on agentic retrieval frameworks, using reinforcement learning to train retrievers with step-wise feedback in dynamic environments. My other research interests revolve around the use of neuro-symbolic methods in NLP, and trying to make LLMs safer to use in social contexts.
   </div>
 </div>
 <br/>
@@ -197,31 +197,46 @@ layout: page
 
   <div class="publication">
     <div class="pub-image">
-      <img src="Paper1.png" alt="Paper 1 Figure">
+      <img src="rader.png" alt="Paper 1 Figure">
     </div>
     <div class="pub-details">
-      <h3>Frustratingly Simple Retrieval Improves Challenging, Reasoning-Intensive Benchmarks</h3>
+      <h3>RaDeR: Reasoning-aware Dense Retrieval Models</h3>
       <p>
-        Xinx Lyu*, Michael Duan*, Rulin Shao, Pang Wei Koh, Sewon Min <br>
-        <em>Preprint</em>
+         **Debrup Das**, Sam O' Nuallain, Razieh Rahimi
+        <br>
+        <em>Main Conference Paper at EMNLP 2025, Suzhao, China </em>
       </p>
     </div>
   </div>
 
   <div class="publication">
     <div class="pub-image">
-      <img src="paper2.png" alt="Paper 2 Figure">
+      <img src="mathsensei.png" alt="Paper 2 Figure">
     </div>
     <div class="pub-details">
-      <h3>Spurious Rewards: Rethinking Training Signals in RLVR</h3>
+      <h3>MATHSENSEI: A Tool-Augmented Large Language Model for Mathematical Reasoning</h3>
       <p>
-        Rulin Shao*, Shuyue Stella Li*, Rui Xin*, Scott Geng*, Yiping Wang, Sewoong Oh, ... <br>
-        <em>Preprint</em>
+        **Debrup Das**, Debopriyo Banerjee, Somak Aditya, Ashish Kulkarni
+        <em>Main Conference Paper at NAACL 2024, Mexico City</em>
       </p>
     </div>
   </div>
 
   <!-- Add more publications in the same format -->
+  <div class="publication">
+    <div class="pub-image">
+      <img src="smab.png" alt="Paper 3 Figure">
+    </div>
+    <div class="pub-details">
+      <h3>SMAB: MAB based word Sensitivity Estimation Framework and its Applications in Adversarial Text Generation</h3>
+      <p>
+        Saurabh Kumar Pandey, Sachin Vashistha, **Debrup Das**, Somak Aditya, Monojit Choudhury
+        <em>Main Conference Paper at NAACL 2025, New Mexico</em>
+      </p>
+    </div>
+  </div>
+
+
 </section>
 
 
