@@ -305,7 +305,6 @@ layout: page
     <span class="pub-venue">NAACL 2024 Main</span>
     <div class="pub-links">
       <a href="https://aclanthology.org/2024.naacl-long.54/">Paper</a>
-      <a href="https://rit.rakuten.com/news/2024/research-on-mathematical-reasoning-accepted-at-naacl-and-me-fomo-2024/">Rakuten News</a>
     </div>
   </div>
 </div>
